@@ -1,0 +1,52 @@
+/* Reset Setting  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+/* header setting */
+.navs {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: center;
+  line-height: 50px;
+  background-color: rgb(195, 195, 195);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(115, 113, 113);
+}
+button:hover {
+  box-shadow: 1px 1px 5px rgb(46, 46, 46);
+}
+a {
+  width: 100%;
+  height: 100%;
+}
+.nav-change-pages button {
+  margin-left: 22px;
+}
+main {
+  margin: 0 40px;
+}
+
+.active {
+  background-color: rgb(71, 69, 69);
+}
+.active a {
+  color: white;
+}
